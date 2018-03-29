@@ -14,7 +14,7 @@ airdrop$ truffle migrate
 
 airdrop$ truffle console
 
-`
+```
 > var dt = var dt = DistributeETH.at(DistributeETH.address)
 
 >dt.distribute([web3.eth.accounts[1],web3.eth.accounts[2]], '2000000000000000000', {value: '10000000000000000000', from: web3.eth.accounts[0]});
@@ -24,8 +24,7 @@ airdrop$ truffle console
 >web3.eth.getBalance(web3.eth.accounts[1])
 
 >web3.fromWei(_.toString())
-`
-
+```
 
 
 ### To Deploy via Remix use truffle-flattener to generate the combined sol
