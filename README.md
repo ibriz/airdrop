@@ -28,7 +28,7 @@ airdrop$ truffle console
 
 
 
-#To Deploy via Remix use truffle-flattener to generate the combined sol
+### To Deploy via Remix use truffle-flattener to generate the combined sol
 
 airdrop> truffle-flattener contracts/DistributeETH.sol > flatten-DistributeETH.sol
 
