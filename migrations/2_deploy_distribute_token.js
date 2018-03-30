@@ -1,10 +1,11 @@
-const DistributeToken = artifacts.require("./DistributeToken.sol");
+const DistributeETH = artifacts.require("./DistributeETH.sol");
 
 module.exports = function(deployer) {
 
-    deployer.deploy(DistributeToken)
-     .then(() => {
-         console.log('DistributeETH.address :' + DistributeETH.address);
-     });
+    deployer
+        .deploy(DistributeETH)
+        .then(() => {
+            console.log('DistributeETH.address: ' + DistributeETH.address);
+        });
 
 }

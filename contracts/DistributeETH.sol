@@ -3,8 +3,6 @@ pragma solidity ^0.4.19;
 import "zeppelin-solidity/contracts/math/SafeMath.sol";
 
 
-
-
 contract DistributeETH {
     using SafeMath for uint256;
 
